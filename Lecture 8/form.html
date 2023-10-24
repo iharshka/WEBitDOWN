@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h3><u>Example - 1</u></h3>
+    <form action="#">
+        <label for="Email">Email-ID:</label>
+        <input type="email" name="Email" id="Email" placeholder="xyz@gmail.com" required>
+        <br>
+        <br>
+        <label for="CountryCode">Country Code:</label>
+        <input type="number" id="CountryCode" value="91">
+        <br>
+        <br>
+        <label for="Phone">Phone number:</label>
+        <input type="number" id="Phone" placeholder="1111100000">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3><u>Example - 2</u> (Learning different elements)</h3>
+    <form>
+        <fieldset>
+            <legend>HTML Form Fieldset Legend</legend>
+            <br>
+            <br>
+            <label for="datepicker">Choose date:</label>
+            <input type="date" id="datepicker">
+            <br>
+            <br>
+            <label for="Selector1">What will you eat?</label>
+            <select name="Waffers" id="Selector1" multiple>
+                <option value="maggi">Maggi</option>
+                <option value="kurkure">Kurkure</option>
+                <option value="chips">Chips</option>
+            </select>
+            <br>
+            <br>
+            <textarea name="textarea1" id="textarea1" cols="30" rows="10" placeholder="Enter text here" autocomplete autofocus></textarea>
+            <br>
+            <br>
+            <button>Mai hu button</button>
+        </fieldset>
+    </form>
+
+    <h3><u>Example - 3</u> (Learning input types)</h3>
+    <form>
+        <label for="textfield1">TextField</label>
+        <input type="text" name="textfield1" id="textfield1">
+        <br/>
+        <br/>
+        <label for="radio1">Male</label>
+        <input type="radio" name="radio1" id="radio1">
+        <label for="radio2">Female</label>
+        <input type="radio" name="radio1" id="radio2">
+        <label for="radio3">Prefer not to say</label>
+        <input type="radio" name="radio1" id="radio3">
+        <br>
+        <br>
+        <label for="checkbox1">English</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        <label for="checkbox2">Hindi</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+        <br>
+        <br>
+        <label for="fileselect1">Select File</label>
+        <input type="file" name="fileselect1" id="fileselect1">
+        <br>
+        <br>
+        <label for="password">Enter Password</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <br>
+        <label for="button1">Button:</label>
+        <input type="submit" name="button1" id="button1">
+        <input type="image" name="imagebutton1" id="imagebutton1" alt="click here" src="favicon.webp" width="10px">
+    </form>
+
+</body>
+
+</html>

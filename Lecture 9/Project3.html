@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-3</title>
+</head>
+
+<body>
+
+    <h1>Complex Form</h1>
+
+    <form action="#">
+        <!-- <input type="search"> -->
+        <!-- <input type="color"> -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" maxlength="10" required>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required>
+            <span>Gender</span>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <label for="country">Country</label>
+            <select name="country" id="country"  required>
+                <option value="choose" disabled selected>--Choose your country--</option>
+                <option value="india">India</option>
+                <option value="usa">United States of America</option>
+                <option value="japan">Japan</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address Street
+                <input type="text" name="address" id="address" required>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" required>
+                <label for="state">State</label>
+                <input type="text" name="state" id="state" required>
+                <label for="zip">Zip Code</label>
+                <input type="tel" name="zip" id="zip" required>
+            </legend>
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            <label for="tnc">I agree to the terms of service</label>
+            <input type="checkbox" name="tnc" id="tnc"  required>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+</body>
+
+</html>
